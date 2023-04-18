@@ -1,0 +1,177 @@
+
+
+
+
+
+
+
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local Featurestext = Instance.new("TextLabel")
+local Featurestextunderline = Instance.new("Frame")
+local Actualfeaturesdarken = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local Actualfeatures = Instance.new("TextLabel")
+local Actualfeatures_2 = Instance.new("TextLabel")
+local Actualfeatures_3 = Instance.new("TextLabel")
+local Actualfeatures_4 = Instance.new("TextLabel")
+local Actualfeatures_5 = Instance.new("TextLabel")
+local Actualfeatures_6 = Instance.new("TextLabel")
+local Actualfeatures_7 = Instance.new("TextLabel")
+local Actualfeatures_8 = Instance.new("TextLabel")
+local Actualfeatures_9 = Instance.new("TextLabel")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BackgroundTransparency = 0.400
+Frame.Position = UDim2.new(0.460526288, 0, 0.189393967, 0)
+Frame.Size = UDim2.new(0, 228, 0, 359)
+Frame.Active = true
+Frame.Draggable = true
+
+UICorner.Parent = Frame
+
+Featurestext.Name = "Featurestext"
+Featurestext.Parent = Frame
+Featurestext.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Featurestext.BackgroundTransparency = 1.000
+Featurestext.Position = UDim2.new(0.0614035092, 0, 0.0250696372, 0)
+Featurestext.Size = UDim2.new(0, 200, 0, 30)
+Featurestext.Font = Enum.Font.SourceSans
+Featurestext.Text = "Features"
+Featurestext.TextColor3 = Color3.fromRGB(170, 170, 255)
+Featurestext.TextSize = 27.000
+
+Featurestextunderline.Name = "Featurestextunderline"
+Featurestextunderline.Parent = Frame
+Featurestextunderline.BackgroundColor3 = Color3.fromRGB(170, 170, 255)
+Featurestextunderline.BorderColor3 = Color3.fromRGB(170, 170, 255)
+Featurestextunderline.Position = UDim2.new(0.0614035092, 0, 0.108635098, 0)
+Featurestextunderline.Size = UDim2.new(0, 197, 0, 0)
+
+Actualfeaturesdarken.Name = "Actualfeaturesdarken"
+Actualfeaturesdarken.Parent = Frame
+Actualfeaturesdarken.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Actualfeaturesdarken.BackgroundTransparency = 0.700
+Actualfeaturesdarken.Position = UDim2.new(0.0745614022, 0, 0.147632316, 0)
+Actualfeaturesdarken.Size = UDim2.new(0, 194, 0, 285)
+
+UICorner_2.Parent = Actualfeaturesdarken
+
+Actualfeatures.Name = "Actualfeatures"
+Actualfeatures.Parent = Frame
+Actualfeatures.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Actualfeatures.BackgroundTransparency = 1.000
+Actualfeatures.Position = UDim2.new(0.171052635, 0, 0.194986075, 0)
+Actualfeatures.Size = UDim2.new(0, 150, 0, 20)
+Actualfeatures.Font = Enum.Font.SourceSans
+Actualfeatures.Text = "Black Hole"
+Actualfeatures.TextColor3 = Color3.fromRGB(170, 170, 255)
+Actualfeatures.TextSize = 16.000
+Actualfeatures.TextWrapped = true
+
+Actualfeatures_2.Name = "Actualfeatures"
+Actualfeatures_2.Parent = Frame
+Actualfeatures_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Actualfeatures_2.BackgroundTransparency = 1.000
+Actualfeatures_2.Position = UDim2.new(0.171052635, 0, 0.637883008, 0)
+Actualfeatures_2.Size = UDim2.new(0, 150, 0, 20)
+Actualfeatures_2.Font = Enum.Font.SourceSans
+Actualfeatures_2.Text = "Always Day"
+Actualfeatures_2.TextColor3 = Color3.fromRGB(170, 170, 255)
+Actualfeatures_2.TextSize = 16.000
+Actualfeatures_2.TextWrapped = true
+
+Actualfeatures_3.Name = "Actualfeatures"
+Actualfeatures_3.Parent = Frame
+Actualfeatures_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Actualfeatures_3.BackgroundTransparency = 1.000
+Actualfeatures_3.Position = UDim2.new(0.171052635, 0, 0.582172692, 0)
+Actualfeatures_3.Size = UDim2.new(0, 150, 0, 20)
+Actualfeatures_3.Font = Enum.Font.SourceSans
+Actualfeatures_3.Text = "ESP Players"
+Actualfeatures_3.TextColor3 = Color3.fromRGB(170, 170, 255)
+Actualfeatures_3.TextSize = 16.000
+Actualfeatures_3.TextWrapped = true
+
+Actualfeatures_4.Name = "Actualfeatures"
+Actualfeatures_4.Parent = Frame
+Actualfeatures_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Actualfeatures_4.BackgroundTransparency = 1.000
+Actualfeatures_4.Position = UDim2.new(0.171052635, 0, 0.526462436, 0)
+Actualfeatures_4.Size = UDim2.new(0, 150, 0, 20)
+Actualfeatures_4.Font = Enum.Font.SourceSans
+Actualfeatures_4.Text = "Anti AFK"
+Actualfeatures_4.TextColor3 = Color3.fromRGB(170, 170, 255)
+Actualfeatures_4.TextSize = 16.000
+Actualfeatures_4.TextWrapped = true
+
+Actualfeatures_5.Name = "Actualfeatures"
+Actualfeatures_5.Parent = Frame
+Actualfeatures_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Actualfeatures_5.BackgroundTransparency = 1.000
+Actualfeatures_5.Position = UDim2.new(0.171052635, 0, 0.47075209, 0)
+Actualfeatures_5.Size = UDim2.new(0, 150, 0, 20)
+Actualfeatures_5.Font = Enum.Font.SourceSans
+Actualfeatures_5.Text = "Anti Blacklist"
+Actualfeatures_5.TextColor3 = Color3.fromRGB(170, 170, 255)
+Actualfeatures_5.TextSize = 16.000
+Actualfeatures_5.TextWrapped = true
+
+Actualfeatures_6.Name = "Actualfeatures"
+Actualfeatures_6.Parent = Frame
+Actualfeatures_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Actualfeatures_6.BackgroundTransparency = 1.000
+Actualfeatures_6.Position = UDim2.new(0.171052635, 0, 0.417827308, 0)
+Actualfeatures_6.Size = UDim2.new(0, 150, 0, 20)
+Actualfeatures_6.Font = Enum.Font.SourceSans
+Actualfeatures_6.Text = "Click TP (CTRL + Click)"
+Actualfeatures_6.TextColor3 = Color3.fromRGB(170, 170, 255)
+Actualfeatures_6.TextSize = 16.000
+Actualfeatures_6.TextWrapped = true
+
+Actualfeatures_7.Name = "Actualfeatures"
+Actualfeatures_7.Parent = Frame
+Actualfeatures_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Actualfeatures_7.BackgroundTransparency = 1.000
+Actualfeatures_7.Position = UDim2.new(0.171052635, 0, 0.362116992, 0)
+Actualfeatures_7.Size = UDim2.new(0, 150, 0, 20)
+Actualfeatures_7.Font = Enum.Font.SourceSans
+Actualfeatures_7.Text = "Fly (Q)"
+Actualfeatures_7.TextColor3 = Color3.fromRGB(170, 170, 255)
+Actualfeatures_7.TextSize = 16.000
+Actualfeatures_7.TextWrapped = true
+
+Actualfeatures_8.Name = "Actualfeatures"
+Actualfeatures_8.Parent = Frame
+Actualfeatures_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Actualfeatures_8.BackgroundTransparency = 1.000
+Actualfeatures_8.Position = UDim2.new(0.171052635, 0, 0.306406677, 0)
+Actualfeatures_8.Size = UDim2.new(0, 150, 0, 20)
+Actualfeatures_8.Font = Enum.Font.SourceSans
+Actualfeatures_8.Text = "Rock Connect(X)"
+Actualfeatures_8.TextColor3 = Color3.fromRGB(170, 170, 255)
+Actualfeatures_8.TextSize = 16.000
+Actualfeatures_8.TextWrapped = true
+
+Actualfeatures_9.Name = "Actualfeatures"
+Actualfeatures_9.Parent = Frame
+Actualfeatures_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Actualfeatures_9.BackgroundTransparency = 1.000
+Actualfeatures_9.Position = UDim2.new(0.171052635, 0, 0.250696391, 0)
+Actualfeatures_9.Size = UDim2.new(0, 150, 0, 20)
+Actualfeatures_9.Font = Enum.Font.SourceSans
+Actualfeatures_9.Text = "Gravity Mod"
+Actualfeatures_9.TextColor3 = Color3.fromRGB(170, 170, 255)
+Actualfeatures_9.TextSize = 16.000
+Actualfeatures_9.TextWrapped = true
